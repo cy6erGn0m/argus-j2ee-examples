@@ -39,4 +39,13 @@ public class Teacher extends Person {
     public void setDegree(Degree degree) {
         this.degree = degree;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "groups=" + groups +
+                ", achievements=" + achievements +
+                ", degree=" + degree +
+                "} " + super.toString();
+    }
 }
